@@ -4,7 +4,7 @@
 
 ```
 Admin Credentials
-Userid : Admin
+Userid : admin
 Password : Admin@2000
 ```
 ```
