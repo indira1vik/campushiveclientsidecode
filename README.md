@@ -1,6 +1,30 @@
 # campushiveclient
 <br>Here are some of the screenshots
 </br>
+
+## Login Credentials
+
+```
+Admin Credentials
+Userid : Admin
+Password : Admin@2000
+```
+```
+Student Credentials
+Userid : 21eee071
+Password : Gokul*071
+```
+```
+Coordinator Credentials
+Userid : 20it098
+Password : Kavin@098
+```
+
+### Key Points on this website
+1. Responsive
+2. Create, Update, Read and Delete of Events and Users.
+3. Works well with corner cases.
+
 **Co-ordinators**
 ![image](https://user-images.githubusercontent.com/90179632/236603434-cda0fb16-de7a-4ab7-82fb-9cc2da39dd57.png)
 ![image](https://user-images.githubusercontent.com/90179632/236603442-768ae53f-ae87-4dea-a35e-d9b4f857ff98.png)
