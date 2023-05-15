@@ -1,0 +1,53 @@
+.event-cont{
+    background-color: #eefaeb;
+    min-height: 100vh;
+}
+.event-data{
+    padding: 8vh;
+}
+.event-details{
+    border: 2px solid green;
+    border-radius: 1vh;
+    padding: 12vh 6vh;
+    width: 48vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.reglink-btn{
+    text-decoration: none;
+    background-color: green;
+    padding: 1.5vh 3vh;
+    color: white;
+    border-radius: 3vh;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid green;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.reglink-btn:hover{
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid darkgreen;
+    cursor: pointer;
+}
+.form-fill{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.form-fill input{
+    padding: 1.5vh 3vh;
+    border-radius: 1vh;
+    border: 1px solid green;
+    outline: none;
+    font-size: 18px;
+}
+.redirect-logo{
+    width: 2vh;
+    height: 2vh;
+}

@@ -1,0 +1,44 @@
+.signup-cont{
+    background-image: url('https://images.shiksha.com/mediadata/images/1602131725phpLQmAQp.jpeg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.signup-form{
+    background-color: white;
+    width: 42vw;
+    padding: 8vh 12vh;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    text-align: center;
+}
+.signup-form input{
+    padding: 1.5vh 3vh;
+    border-radius: 3vh;
+    border: 1px solid green;
+    outline: none;
+    font-size: 18px;
+}
+.drop-down-list{
+    padding: 1.5vh 3vh;
+    border-radius: 3vh;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid green;
+}
+.error-text{
+    color: red;
+    width: fit-content;
+    padding-left: 18px;
+}
+
+@media screen and (max-width:642px){
+    .signup-form{
+        width: 100%;
+        padding: 6vh;
+    }
+}

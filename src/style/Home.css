@@ -1,0 +1,149 @@
+.home-cont {
+    background-color: #eefaeb;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 6vh;
+    align-items: center;
+}
+
+.navbar-title {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    cursor:default;
+}
+
+.left-menu {
+    display: flex;
+    gap: 3vh;
+}
+
+.left-menu button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.left-menu img {
+    width: 6vh;
+    height: 6vh;
+}
+
+.home-data {
+    padding: 8vh;
+}
+
+.coming-events {
+    border: 2px solid green;
+    border-radius: 2vh;
+    padding: 6vh;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 38vw;
+}
+
+.coming-events input {
+    padding: 1.5vh;
+    border-radius: 1vh;
+    border: 1px solid green;
+    outline: none;
+    font-size: 18px;
+}
+.coming-events textarea{
+    resize: vertical;
+    border-radius: 1vh;
+    padding: 1.5vh;
+    box-sizing: border-box;
+    font-size: 18px;
+    outline: none;
+}
+
+.user-intro {
+    margin-bottom: 2vh;
+}
+
+.one-event {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 1vh;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 3vh;
+    cursor: pointer;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.two-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:642px){
+    .navbar{
+        padding: 1vh 2vh;
+    }
+    .left-menu img {
+        width: 4vh;
+        height: 4vh;
+    }
+    .left-menu {
+        gap: 1vh;
+    }
+    .home-data {
+        padding: 4vh;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .coming-events {
+        padding: 3vh;
+        width: 84%;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    .two-cont{
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+}
+
+@media screen and (max-width:792px){
+    .navbar{
+        padding: 1vh 2vh;
+    }
+    .left-menu img {
+        width: 4vh;
+        height: 4vh;
+    }
+    .left-menu {
+        gap: 1vh;
+    }
+    .home-data {
+        padding: 4vh;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .coming-events {
+        padding: 3vh;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    .two-cont{
+        display: flex;
+        gap: 3vh;
+    }
+}

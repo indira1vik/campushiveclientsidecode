@@ -1,0 +1,33 @@
+.admin-cont{
+    background-color: #eefaeb;
+    min-height: 100vh;
+}
+.admin-data{
+    padding: 8vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.edit-title-user{
+    cursor: pointer;
+}
+.div-admin-one{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.below-gap{
+    margin-bottom: 3vh;
+}
+
+@media screen and (max-width:642px){
+    .admin-data{
+        padding: 4vh;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3vh;
+    }
+    .below-gap{
+        width: 100%;
+    }
+}

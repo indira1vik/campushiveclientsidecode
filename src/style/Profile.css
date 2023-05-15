@@ -1,0 +1,93 @@
+.profile-cont{
+    background-color: #eefaeb;
+    min-height: 100vh;
+}
+.profile-data{
+    padding: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-event-card{
+    cursor: default;
+}
+.two-btn{
+    display: flex;
+    gap: 1vw;
+}
+
+.editbtn{
+    background-color: skyblue;
+    padding: 1.5vh 3vh;
+    border: 0;
+    font-size: 16px;
+    border-radius: 0.5vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+.deletebtn{
+    background-color: red;
+    padding: 1.5vh 3vh;
+    border: 0;
+    font-size: 16px;
+    border-radius: 0.5vh;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.edit-event{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.prof-btn{
+    width:44vw;
+}
+.edit-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.reg-create-divs{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.user-profile-details-cont{
+    padding: 8vh 8vh 0vh 8vh;
+}
+.user-profile-details{
+    padding: 4vh;
+    border: 2px solid green;
+    border-radius: 2vh;
+}
+.user-prof-text{
+    display: flex;
+    gap: 1vw;
+}
+.user-prof-text div{
+    background-color: green;
+    padding: 1.5vh 3vh;
+    color: white;
+    border-radius: 1vh;
+}
+
+@media screen and (max-width:642px){
+    .profile-data{
+        padding: 4vh;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    .user-profile-details-cont{
+        padding: 4vh 4vh 0vh 4vh;
+    }
+    .user-prof-text{
+        display: flex;
+        gap: 2vw;
+        flex-direction: column;
+    }
+    .prof-btn{
+        margin: auto;
+        width: fit-content;
+    }
+}

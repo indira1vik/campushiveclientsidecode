@@ -1,0 +1,74 @@
+.login-cont {
+    background-image: url('https://images.shiksha.com/mediadata/images/1602131725phpLQmAQp.jpeg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    color: green;
+}
+.login-form {
+    background-color: white;
+    width: 44vw;
+    padding: 10vh 14vh;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    text-align: center;
+}
+.login-cont input{
+    padding: 1.5vh 3vh;
+    border-radius: 3vh;
+    border: 1px solid green;
+    outline: none;
+    font-size: 18px;
+}
+.loginbtn{
+    padding: 1.5vh 3vh;
+    border: 1px solid green;
+    border-radius: 3vh;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.loginbtn:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+.signupbtn{
+    width: fit-content;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    color: green;
+}
+.signupbtn:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:1024px){
+    .login-form{
+        width: 58vw;
+    }
+}
+
+@media screen and (max-width:792px){
+    .login-form{
+        width: 64vw;
+        padding: 12vh 6vh;
+    }
+}
+
+@media screen and (max-width:642px){
+    .login-form{
+        width: 100vw;
+        padding: 12vh 6vh;
+    }
+}
