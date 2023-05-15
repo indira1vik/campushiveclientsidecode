@@ -1,6 +1,4 @@
-# campushiveclient
-<br>Here are some of the screenshots
-</br>
+# Campus-Hive-Client
 
 ## Login Credentials
 
@@ -24,6 +22,9 @@ Password : Kavin@098
 1. Responsive
 2. Create, Update, Read and Delete of Events and Users.
 3. Works well with corner cases.
+
+<br>Here are some of the screenshots
+</br>
 
 **Co-ordinators**
 ![image](https://user-images.githubusercontent.com/90179632/236603434-cda0fb16-de7a-4ab7-82fb-9cc2da39dd57.png)
